@@ -1,0 +1,16 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath ('com.apphance.ameba:Ameba:0.99.2.13')
+    }
+}
+
+apply plugin: 'ameba-project-configuration'
+apply plugin: 'ameba-mercurial'
+apply plugin: 'ameba-android-build'
+//apply plugin: 'ameba-android-apphance'
+apply plugin: 'ameba-android-analysis'
+//apply plugin: 'ameba-android-test'
+apply plugin: 'ameba-android-reports'

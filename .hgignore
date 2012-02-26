@@ -1,0 +1,7 @@
+^.gradle$
+^log$
+^build$
+^bin$
+^gen$
+^local.properties$
+^ota$

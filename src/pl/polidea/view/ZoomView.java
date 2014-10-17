@@ -69,6 +69,10 @@ public class ZoomView extends FrameLayout {
         super(context);
     }
 
+    public ZoomView(final Context context, AttributeSet attributes) {
+        super(context, attributes);
+    }
+
     public float getZoom() {
         return zoom;
     }
